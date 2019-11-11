@@ -97,3 +97,33 @@ h1 {
 .hide {
   display: none;
 }
+
+
+#show-replace-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #35636e;
+  border-radius: 3px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #35636e;
+  transition: background 0.3s, color 0.3s;
+}
+
+
+#metod-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#replace_value {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #35636e;
+  border-radius: 3px;
+}

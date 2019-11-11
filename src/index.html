@@ -6,8 +6,7 @@
   </head>
   <body>
     <h1>Tezos RPC App</h1>
-    <div id="dialog">
-      <div id="header">Show Balance</div>
+    
       <div id="content">
         <div id="balance-form">
           <input
@@ -16,12 +15,35 @@
             id="address"
             placeholder="Enter wallet address"
           />
-          <a id="show-balance-button" href="#">Show</a>
+          <a id="show-balance-button" href="#">Show Balance</a>
         </div>
         <div id="error-message" class="hide"></div>
         <div id="balance-output" class="show"><span id="balance">0</span>ꜩ</div>
+
+        <br>
+        <label>Contract</label>
+        <br>
+        <a target="_blank" href="https://babylonnet.tzstats.com/KT1DWXB7jZSJ8RTiAUkNXimXkE3f2qyEddjB">https://babylonnet.tzstats.com/KT1DWXB7jZSJ8RTiAUkNXimXkE3f2qyEddjB</a>
+      
+      <div style="margin-top: 70px;">
+        Storage: <span id="storage_value" style="font-size: 20px;"></span><br><br><span style="font-size: 10px; color:red;">(Please refresh page after 10 seconds of replace storage.. Note: blockchain tx processing takes some time.)</span>
       </div>
-    </div>
+      <br>
+      <br>
+
+      <div id="metod-form">
+          <input
+            type="number"
+            id="replace_value"
+            placeholder="Enter replace value"
+          />
+          <a id="show-replace-button" href="#">Replace Storage</a>
+        </div>
+        
+        
+
+
+    
    
     <script src="main.ts"></script>
   </body>
