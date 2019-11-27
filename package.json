@@ -1,34 +1,18 @@
 {
-  "name": "taquito-boilerplate-app",
-  "version": "1.0.0",
-  "description": "A boilerplate app for creating a DApp using Taquito",
-  "main": "index.js",
+  "name": "demo-router",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "semantic-ui-react": "^0.78.2"
+  },
   "scripts": {
-    "watch": "parcel src/index.html",
-    "clean": "rm -rf dist",
-    "build": "npm run clean && parcel build ./src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ecadlabs/taquito-boilerplate-app.git"
-  },
-  "keywords": [
-    "tezos",
-    "taquito",
-    "ts",
-    "typescript",
-    "dapp",
-    "blockchain"
-  ],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@taquito/taquito": "^5.1.0-beta.1",
-    "@types/jquery": "^3.3.31",
-    "jquery": "^3.4.1",
-    "parcel-bundler": "^1.12.4",
-    "typescript": "^3.6.4"
-  },
-  "dependencies": {}
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }

@@ -1,29 +1,42 @@
-# taquito-boilerplate
+# Demo-Router
 
-![Built with Taquito][logo]
+Repo for Scotch.io article about React Router 4
 
-A minimal framework-agnostic setup for starting developing Tezos DApps quickly with Taquito.
-
-## Dependencies
-1. jQuery - for simple manipulation and traversal of HTML documents.
-2. parcel-bundler - for packaging web applications quickly.
 
 ## Getting Started
 
-1. Create a new repository from taquito-boilerplate by clicking "Use this template".
-2. Clone your new repository:
+These instructions will get you a copy of the project up and running.
 
-    `git clone <YOUR_REPOSITORY_URL>`
+### Installation
 
-3. Change your current working directory to the newly cloned repository directory.
-4. Install dependencies:
+Clone this repository.
 
-    `npm install`
+With SSH:
 
-5. Start development server:
+```
+$ git clone git@github.com:austinroy/demo-router.git
+```
+With HTTPS:
+```
+$ git clone https://github.com/austinroy/demo-router.git
+```
 
-    `npm run watch`
+Install dependencies
 
-6. Open http://localhost:1234 in your browser to see a sample application.
+```
+$ yarn
+```
 
-[logo]: https://raw.githubusercontent.com/ecadlabs/taquito-boilerplate/master/assets/built-with-taquito.png "Built with Taquito"
+Run the application
+
+```
+$ yarn start
+```
+
+
+## Running the tests
+Run the following script:
+
+```
+$ yarn test
+```
